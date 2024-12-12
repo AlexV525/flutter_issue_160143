@@ -1,0 +1,22 @@
+name: app
+description: "A new Flutter project."
+publish_to: 'none'
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  foundation:
+    path: ../foundation
+
+  # Uncomment the dependency to see changes in android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+  # fvp: 0.28.0
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
